@@ -1,2 +1,60 @@
 # domain-security-waf-architecture
 Enterprise Domain Security, Anti-Hijacking &amp; Edge CDN Traffic Filtering Architecture Guide.
+# 🛡️ Enterprise Domain Security & Anti-Hijacking Architecture (域名防红与全链路安全架构)
+
+[![Security](https://shields.io)](https://google.com)
+[![Protocol](https://shields.io)](https://google.com)
+[![Status](https://shields.io)](https://google.com)
+
+本项目提供企业级**域名安全防护、DNS 防污染与高可用边缘加速**的技术架构参考与运维自查清单，涵盖 SSL/TLS 异常排查、历史解析污染处理、共享 IP 隔离以及明文 DNS 劫持防护等核心内容。
+
+---
+
+## 📖 目录 (Table of Contents)
+- [1. 常见域名访问拦截的底层诱因](#1-常见域名访问拦截的底层诱因)
+- [2. 四层立体安全防护架构](#2-四层立体安全防护架构)
+- [3. 站点上线前安全自查清单 (Checklist)](#3-站点上线前安全自查清单-checklist)
+- [4. 完整技术白皮书与多端适配指南](#4-完整技术白皮书与多端适配指南)
+
+---
+
+## 1. 常见域名访问拦截的底层诱因
+
+在数据传输链路中，通常在以下环节触发安全警告或阻断：
+* **SSL/TLS 证书链异常**：未开启全站强制 HTTPS 或使用不安全协议。
+* **历史解析污染**：新注册域名带有不良历史解析记录。
+* **共享服务器 IP 受牵连**：同段 IP 下的其他异常站点触发黑名单。
+* **明文 DNS 劫持与扫描**：本地运营商缓存污染或自动化爬虫高频扫描。
+
+---
+
+## 2. 四层立体安全防护架构
+
+防护体系基于网络接入层构建，核心流程包括：
+* **源站隐身与高防 CDN**：依托全球分布式节点隐藏真实 IP。
+* **边缘 WAF 流量清洗**：过滤恶意扫描与异常探测流量。
+* **DoH/DoT 加密解析**：结合 BGP 智能路由绕开局部劫持节点。
+* **自动化健康监测**：7×24 小时巡检多端连通性与安全评级。
+
+---
+
+## 3. 站点上线前安全自查清单 (Checklist)
+
+- [x] **排查历史记录**：确认域名无历史违规解析或拦截残留。
+- [x] **强化加密传输**：部署 ECC SSL 证书，开启 TLS 1.3 与 HSTS。
+- [x] **清理前端脚本**：确保网页源码未引入不明重定向或广告 JS。
+- [x] **隐藏源站 IP**：确认 A 记录未直接暴露源站服务器地址。
+
+---
+
+## 4. 完整技术白皮书与多端适配指南
+
+关于多端兼容性排查、FAQ 及零代码接入流程，可参阅完整在线技术文档：
+* 🌐 **域名防红技术中心（官方技术文档）**：[https://google.com](https://google.com)
+* 🔧 **底层技术原理与容灾解析**：[查看技术原理详情](https://google.com/%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86)
+* 📱 **多端适配与浏览器兼容方案**：[查看多端适配详情](https://google.com/%E5%A4%9A%E7%AB%AF%E9%80%82%E9%85%8D)
+* ❓ **域名异常排查指南 (FAQ)**：[查看常见问题解答](https://google.com/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98faq)
+
+### 技术交流与支持
+* **在线技术支持 (Telegram)**：`@bg449`
+* **技术动态与案例频道 (Telegram)**：`@ug661`
