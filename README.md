@@ -1,10 +1,4 @@
-# domain-security-waf-architecture
-Enterprise Domain Security, Anti-Hijacking &amp; Edge CDN Traffic Filtering Architecture Guide.
 # 🛡️ Enterprise Domain Security & Anti-Hijacking Architecture (域名防红与全链路安全架构)
-
-[![Security](https://shields.io)](https://google.com)
-[![Protocol](https://shields.io)](https://google.com)
-[![Status](https://shields.io)](https://google.com)
 
 本项目提供企业级**域名安全防护、DNS 防污染与高可用边缘加速**的技术架构参考与运维自查清单，涵盖 SSL/TLS 异常排查、历史解析污染处理、共享 IP 隔离以及明文 DNS 劫持防护等核心内容。
 
@@ -50,11 +44,11 @@ Enterprise Domain Security, Anti-Hijacking &amp; Edge CDN Traffic Filtering Arch
 ## 4. 完整技术白皮书与多端适配指南
 
 关于多端兼容性排查、FAQ 及零代码接入流程，可参阅完整在线技术文档：
-* 🌐 **域名防红技术中心（官方技术文档）**：[https://google.com](https://google.com)
-* 🔧 **底层技术原理与容灾解析**：[查看技术原理详情](https://google.com/%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86)
-* 📱 **多端适配与浏览器兼容方案**：[查看多端适配详情](https://google.com/%E5%A4%9A%E7%AB%AF%E9%80%82%E9%85%8D)
-* ❓ **域名异常排查指南 (FAQ)**：[查看常见问题解答](https://google.com/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98faq)
+* 🌐 **域名防红技术中心（官方技术文档）**：https://google.com
+* 🔧 **底层技术原理与容灾解析**：https://google.com/%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86
+* 📱 **多端适配与浏览器兼容方案**：https://google.com/%E5%A4%9A%E7%AB%AF%E9%80%82%E9%85%8D
+* ❓ **域名异常排查指南 (FAQ)**：https://google.com/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98faq
 
 ### 技术交流与支持
-* **在线技术支持 (Telegram)**：`@bg449`
-* **技术动态与案例频道 (Telegram)**：`@ug661`
+* **在线技术支持 (Telegram)**：https://t.me
+* **技术动态与案例频道 (Telegram)**：https://t.me
