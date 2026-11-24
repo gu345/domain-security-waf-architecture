@@ -44,11 +44,12 @@
 ## 4. 完整技术白皮书与多端适配指南
 
 关于多端兼容性排查、FAQ 及零代码接入流程，可参阅完整在线技术文档：
-* 🌐 **域名防红技术中心（官方技术文档）**：https://google.com
-* 🔧 **底层技术原理与容灾解析**：https://google.com/%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86
-* 📱 **多端适配与浏览器兼容方案**：https://google.com/%E5%A4%9A%E7%AB%AF%E9%80%82%E9%85%8D
-* ❓ **域名异常排查指南 (FAQ)**：https://google.com/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98faq
+* 🌐 **官方技术文档**：[域名防红技术中心](https://sites.google.com/view/fh101)
+* 🔧 **底层技术原理**：[域名防红底层技术原理与容灾架构](https://sites.google.com/view/fh101/%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86)
+* 📱 **多端适配方案**：[谷歌、微信与QQ全平台链接安全兼容方案](https://sites.google.com/view/fh101/%E5%A4%9A%E7%AB%AF%E9%80%82%E9%85%8D)
+* ❓ **常见问题解答**：[域名异常排查与安全提示解除指南 (FAQ)](https://sites.google.com/view/fh101/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98faq)
 
 ### 技术交流与支持
-* **在线技术支持 (Telegram)**：https://t.me
-* **技术动态与案例频道 (Telegram)**：https://t.me
+* **在线技术支持 (Telegram)**：[联系工程师 @bg449](https://t.me)
+* **技术动态与案例频道 (Telegram)**：[订阅频道 @ug661](https://t.me)
+
