@@ -50,6 +50,6 @@
 * ❓ **常见问题解答**：[域名异常排查与安全提示解除指南 (FAQ)](https://sites.google.com/view/fh101/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98faq)
 
 ### 技术交流与支持
-* **在线技术支持 (Telegram)**：[联系工程师 @bg449](https://t.me)
-* **技术动态与案例频道 (Telegram)**：[订阅频道 @ug661](https://t.me)
+* **在线技术支持 (Telegram)**：[联系工程师 @bg449](https://t.me/bg449)
+* **技术动态与案例频道 (Telegram)**：[订阅频道 @ug661](https://t.me/ug661)
 
